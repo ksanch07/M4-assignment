@@ -1,9 +1,9 @@
-let coinFlip;
+let coinFlip2;
 do {
-    coinFlip = Math.round(Math.random());
-    if (coinFlip === 0) {
+    coinFlip2 = Math.round(Math.random());
+    if (coinFlip2 === 0) {
         console.log('Heads');
     } else {
         console.log('Tails');
     }
-} while (coinFlip === 0);
+} while (coinFlip2 === 0);
